@@ -1,0 +1,17 @@
+<div *ngIf="isActive">
+    <h3>Osobe</h3>
+    <p>Lista osoba i njihova imena</p>
+    <br>
+    <table>
+        <thead>
+            <th>name</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let person of persons">
+            <td>{{person.name}}</td>
+            <td>{{person.age}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
