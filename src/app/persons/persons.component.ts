@@ -11,6 +11,7 @@ export class PersonsComponent implements OnInit {
   [
     {'name': 'Stevan', 'age': 15}, 
     {'name': 'Lucia', 'age': 18}, 
+    {'name': 'Maya', 'age': 28}, 
     {'name': 'Mike', 'age': 45}
   ];
 
